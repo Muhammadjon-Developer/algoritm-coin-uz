@@ -7,6 +7,8 @@ import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { PiStudentBold } from "react-icons/pi";
 import { PiMathOperationsLight } from "react-icons/pi";
+import { IoShieldHalfSharp } from "react-icons/io5";
+import { FaBook } from "react-icons/fa6";
 
 export const dataMenu = [
   {
@@ -53,15 +55,15 @@ export const categories = [
   },
   {
     title: "Kiber havfsizlik",
-    icon: TbBrandVscode,
+    icon: IoShieldHalfSharp,
   },
   {
     title: "Ingliz tili",
-    icon: TbBrandVscode,
+    icon: FaBook,
   },
   {
     title: "Rus tili",
-    icon: TbBrandVscode,
+    icon: FaBook,
   },
   {
     title: "Matematika",

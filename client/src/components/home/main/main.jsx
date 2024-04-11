@@ -1,13 +1,13 @@
-import { useTheme } from "../../../helpers/dark-mode"
-import {Routes, Route} from 'react-router-dom'
-import {AddMentor, AllInformation, MyAccount, UpdateMentor} from '../../'
+import { useTheme } from "../../../helpers/dark-mode";
+import { Routes, Route} from 'react-router-dom';
+import { AddMentor, AllInformation, MyAccount, UpdateMentor } from '../../';
 
 const Main = () => {
   const { darkMode} = useTheme();
   return (
     <div className={ darkMode 
-        ? "col-span-5 h-screen bg-slate-700 p-8" 
-        : "col-span-5 h-screen bg-neutral-100 p-8"}
+        ? "col-span-5 h-[100vh] overflow-auto bg-slate-700 p-8 " 
+        : "col-span-5 h-[100vh] overflow-auto bg-neutral-100 p-8 "}
     >
       <Routes>
         <Route path='/all-information' element={<AllInformation/>}/>
