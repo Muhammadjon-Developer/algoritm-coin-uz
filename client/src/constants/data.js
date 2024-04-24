@@ -6,15 +6,12 @@ import { TbBrandVscode } from "react-icons/tb";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { PiStudentBold } from "react-icons/pi";
-import { PiMathOperationsLight } from "react-icons/pi";
-import { IoShieldHalfSharp } from "react-icons/io5";
-import { FaBook } from "react-icons/fa6";
 
 export const dataMenu = [
   {
     icon: SiHomeassistant,
     title: "ALL Information",
-    link: '/all-information',
+    link: '/',
   },
   {
     icon: MdOutlineGroupAdd,
@@ -31,6 +28,7 @@ export const dataMenu = [
     title: "My Account",
     link: '/my-account',
   },
+  
 ];
 
 export const cards = [
@@ -46,80 +44,60 @@ export const cards = [
 
 export const categories = [
   {
-    title: "Web-dasturlash",
+    title:"Web-dasturlash",
     icon: TbBrandVscode,
   },
   {
-    title: "IT kids",
+    title:"IT kids",
     icon: LiaLaptopCodeSolid,
   },
   {
-    title: "Kiber havfsizlik",
-    icon: IoShieldHalfSharp,
+    title:"Kiber havfsizlik",
+    icon: TbBrandVscode,
   },
   {
-    title: "Ingliz tili",
-    icon: FaBook,
+    title:"Ingliz tili",
+    icon: TbBrandVscode,
   },
   {
-    title: "Rus tili",
-    icon: FaBook,
+    title:"Rus tili",
+    icon: TbBrandVscode,
   },
   {
-    title: "Matematika",
-    icon: PiMathOperationsLight,
+    title:"Matematika",
+    icon: TbBrandVscode,
   },
 ];
 
 export const mentors = [
   {
-    username: "Abdushoxid Bannayev",
-    phoneNumber: "+99890 122 0000",
-    createdAt: "04/09/2024",
+    username:"Abdushoxid Bannayev",
+    phoneNumber:"+99890 122 0000",
+    createdAt:"04/09/2024",
   },
   {
-    username: "Ayubxon Ahmatov",
-    phoneNumber: "+99891 555 5555",
-    createdAt: "04/09/2024",
+    username:"Ayubxon Ahmatxonov",
+    phoneNumber:"+99891 555 5555",
+    createdAt:"04/09/2024",
   },
   {
-    username: "Abdushoxid Bannayev",
-    phoneNumber: "+99890 122 0000",
-    createdAt: "04/09/2024",
+    username:"Muhammadali Ismoiljanov",
+    phoneNumber:"+99897 777 7777",
+    createdAt:"04/09/2024",
   },
   {
-    username: "Ayubxon Ahmatxonov",
-    phoneNumber: "+99891 555 5555",
-    createdAt: "04/09/2024",
+    username:"Murodjon Abdurahmonov",
+    phoneNumber:"+99890 122 0000",
+    createdAt:"04/09/2024",
   },
   {
-    username: "Abdushoxid Bannayev",
-    phoneNumber: "+99890 122 0000",
-    createdAt: "04/09/2024",
+    username:"Muhammadjon Olimov",
+    phoneNumber:"+99891 555 5555",
+    createdAt:"04/09/2024",
   },
   {
-    username: "Ayubxon Ahmatxonov",
-    phoneNumber: "+99891 555 5555",
-    createdAt: "04/09/2024",
-  },
-  {
-    username: "Ibrohimjon Jakbaraliyev",
-    phoneNumber: "+99897 777 7777",
-    createdAt: "04/09/2024",
-  },
-  {
-    username: "Abdushoxid Bannayev",
-    phoneNumber: "+99890 122 0000",
-    createdAt: "04/09/2024",
-  },
-  {
-    username: "Ayubxon Ahmatxonov",
-    phoneNumber: "+99891 555 5555",
-    createdAt: "04/09/2024",
-  },
-  {
-    username: "Ibrohimjon Jakbaraliyev",
-    phoneNumber: "+99897 777 7777",
-    createdAt: "04/09/2024",
+    username:"Ibrohimjon Jakbaraliyev",
+    phoneNumber:"+99897 777 7777",
+    createdAt:"04/09/2024",
   },
 ];
