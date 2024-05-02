@@ -5,18 +5,15 @@ import {
   CardHeader,
   Input,
   Typography,
-  Button,
   CardBody,
-  Chip,
-  CardFooter,
   Tabs,
   TabsHeader,
   Tab,
-  Avatar,
   IconButton,
   Tooltip,
 } from "@material-tailwind/react";
 import { useTheme } from "../../../helpers/context";
+import { memo } from "react";
  
 const TABS = [
   {
@@ -172,4 +169,4 @@ const MentorInfo = () => {
   );
 }
 
-export default MentorInfo;
+export default memo(MentorInfo);

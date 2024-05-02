@@ -1,4 +1,4 @@
-import React, { useEffect, useState, createContext, useContext } from 'react';
+import React, { useEffect, useState, createContext, useContext, useCallback } from 'react';
 import { mentors } from '../constants/data';
 
 // Context yaratish
@@ -17,14 +17,16 @@ export const ThemeProvider = ({ children }) => {
     localStorage.setItem('darkMode', JSON.stringify(darkMode));
   }, [darkMode]);
 
-  const handleDarkMode = () => {
+  const handleDarkMode = useCallback(() => {
     setDarkMode(prevMode => !prevMode);
-  };
+  }, [darkMode]);
 
   
-  const handleSearch = e => {
-    setSearchTerm(e.target.value);
-  };
+  const handleSearch = useCallback((e) => {
+    setTimeout(
+      setSearchTerm(e.target.value), 500
+    )
+  }, [searchTerm]);
 
   const filteredData = mentors.filter((item) =>
     Object.values(item).some(

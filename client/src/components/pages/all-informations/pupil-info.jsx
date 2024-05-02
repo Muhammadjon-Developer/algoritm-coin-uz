@@ -17,6 +17,7 @@ import {
   Tooltip,
 } from "@material-tailwind/react";
 import { useTheme } from "../../../helpers/context";
+import { memo } from "react";
  
 const TABS = [
   {
@@ -172,4 +173,4 @@ const PupilInfo = () => {
   );
 }
 
-export default PupilInfo;
+export default memo(PupilInfo);
